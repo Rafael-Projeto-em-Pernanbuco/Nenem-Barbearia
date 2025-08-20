@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Casa das Flores</title>
+  <title>Casa dos Óculos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Estilo -->
@@ -62,8 +62,8 @@
   <div id="google_translate_element" style="position: absolute; top: 10px; right: 10px;"></div>
 
   <header>
-    <h1>Casa das Flores</h1>
-    <p>Flores com amor e beleza</p>
+    <h1>Cass dos Óculos</h1>
+    <p>Óculos  com amor e estilo</p>
   </header>
 
   <nav>
@@ -75,9 +75,9 @@
 
   <div class="content">
     <h2>Venha nos visitar!</h2>
-    <p>Estamos localizados no coração da cidade.</p>
+    <p>Estamos localizados no coração da cidade do Crato-CE.</p>
 
-    <!-- Google Maps (exemplo: localização de São Paulo) -->
+    <!-- Google Maps (exemplo: localização de Crato-CE) -->
     <iframe 
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8795305075324!2d-46.63330908502137!3d-23.588068784668474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c61f39142f%3A0x52b129c08a6dfe3a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1691422589931!5m2!1spt-BR!2sbr" 
       allowfullscreen="" 
@@ -86,7 +86,7 @@
   </div>
 
   <footer>
-    <p>&copy; 2025 Casa das Flores - Todos os direitos reservados</p>
+    <p>&copy; 2025 Casa dos Óculos  - Todos os direitos reservados</p>
   </footer>
 
   <!-- Script do Google Tradutor -->
