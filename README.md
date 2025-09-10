@@ -1,105 +1,154 @@
-
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Casa dos Óculos</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Estilo -->
+  <title>Nenem Barbearia</title>
   <style>
     body {
+      background-color: #111; /* Preto Escuro */
+      color: #eee;            /* Branco Claro */
       font-family: Arial, sans-serif;
-      background-color: #ffeaa7; /* amarelo claro */
-      color: #6c3483; /* rosa escuro */
       margin: 0;
       padding: 0;
     }
-
-    header {
-      background-color: #d81b60; /* rosa escuro */
-      color: white;
+    .container {
       padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    header, footer {
+      background-color: #333; /* Preto Claro */
+      padding: 15px;
       text-align: center;
     }
-
-    nav {
-      background-color: #f9ca24; /* amarelo forte */
+    h1 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .service {
+      flex: 1 1 45%;
+      margin: 10px;
+      background-color: #222;
       padding: 10px;
-      text-align: center;
+      border-radius: 8px;
     }
-
-    nav a {
-      color: #6c3483;
-      margin: 0 15px;
+    .service img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .social-buttons a {
+      margin: 0 5px;
+      color: #eee;
       text-decoration: none;
-      font-weight: bold;
+      font-size: 1.2em;
     }
-
-    .content {
-      padding: 20px;
-      text-align: center;
+    .chat-container, .email-form {
+      margin-top: 20px;
+      background-color: #222;
+      padding: 15px;
+      border-radius: 8px;
     }
-
-    iframe {
+    input[type="email"], button {
+      padding: 8px;
+      margin: 5px 0;
       width: 100%;
-      max-width: 600px;
-      height: 400px;
+      box-sizing: border-box;
       border: none;
-      margin: 20px auto;
+      border-radius: 4px;
     }
-
-    footer {
-      background-color: #d81b60;
-      color: white;
-      text-align: center;
-      padding: 10px;
+    input[type="email"] {
+      background-color: #333;
+      color: #fff;
+    }
+    button {
+      background-color: #555;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #666;
+    }
+    #map {
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    #google_translate_element {
+      text-align: right;
+      margin: 10px;
     }
   </style>
 </head>
-
 <body>
-  <!-- Google Tradutor -->
-  <div id="google_translate_element" style="position: absolute; top: 10px; right: 10px;"></div>
-
   <header>
-    <h1>Cass dos Óculos</h1>
-    <p>Óculos  com amor e estilo</p>
+    <h1>Nenem Barbearia</h1>
+    <div id="google_translate_element"></div>
   </header>
 
-  <nav>
-    <a href="#">Início</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contato</a>
-    <a href="#">Produtos</a>
-  </nav>
+  <div class="container">
+    <section class="services">
+      <div class="service">
+        <h2>Corte Tradicional</h2>
+        <img src="corte-tradicional.jpg" alt="Corte Tradicional">
+        <p>Descrição do corte tradicional – R$XX,00</p>
+      </div>
+      <div class="service">
+        <h2>Baldeado</h2>
+        <img src="baldeado.jpg" alt="Baldeado">
+        <p>Descrição do baldeado – R$YY,00</p>
+      </div>
+      <!-- Adicione mais serviços conforme necessário -->
+    </section>
 
-  <div class="content">
-    <h2>Venha nos visitar!</h2>
-    <p>Estamos localizados no coração da cidade do Crato-CE.</p>
+    <div class="social-buttons">
+      <a href="#"><strong>WhatsApp</strong></a>
+      <a href="#"><strong>Instagram</strong></a>
+      <a href="#"><strong>Facebook</strong></a>
+      <a href="#"><strong>Twitter</strong></a>
+      <a href="#"><strong>Kwai</strong></a>
+      <a href="#"><strong>Telegram</strong></a>
+      <a href="#"><strong>TikTok</strong></a>
+    </div>
 
-    <!-- Google Maps (exemplo: localização de Crato-CE) -->
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8795305075324!2d-46.63330908502137!3d-23.588068784668474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c61f39142f%3A0x52b129c08a6dfe3a!2sAv.%20Padre Cícero %2C%20S%C3%A3o%20Ceara!5e0!3m2!1cet-BR!2cbr!4v1691422589931!5m2!1cet-BR!2cbr" 
-      allowfullscreen="" 
-      loading="lazy">
-    </iframe>
+    <div class="chat-container">
+      <h3>Chat de Atendimento Online</h3>
+      <p>Espaço para chat com gravação de áudio (implemente via JavaScript / servidor)</p>
+      <button>Gravar Mensagem de Áudio</button>
+    </div>
+
+    <div class="email-form">
+      <h3>Cadastre seu E-mail</h3>
+      <form>
+        <input type="email" placeholder="Seu e-mail">
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <div id="map">
+      <!-- Mapa Google embed será carregado aqui -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d... coloque aqui o código _embed_ referente ao endereço completo"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
   </div>
 
   <footer>
-    <p>&copy; 2025 Casa dos Óculos  - Todos os direitos reservados</p>
+    <p>Localização: Av. Raimundo Canuto, Nº 803 – Exu‑PE</p>
   </footer>
 
-  <!-- Script do Google Tradutor -->
+  <!-- SCRIPT do Google Tradutor (widget simples) -->
   <script type="text/javascript">
     function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'pt',
-        includedLanguages: 'en,es,fr,it,de,ja', // Idiomas permitidos
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
+      new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
     }
   </script>
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
