@@ -86,7 +86,7 @@
 
   <h2>Redes Sociais</h2>
   <div class="social-buttons">
-    <a href="https://wa.me/SEUNUMERO" target="_blank">WhatsApp</a>
+    <a href="https://wa.me/5587996838485" target="_blank">WhatsApp</a>
     <a href="https://instagram.com/SEUUSUARIO" target="_blank">Instagram</a>
     <a href="https://facebook.com/SEUUSUARIO" target="_blank">Facebook</a>
     <a href="https://twitter.com/SEUUSUARIO" target="_blank">Twitter</a>
