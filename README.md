@@ -88,7 +88,7 @@
   <div class="social-buttons">
     <a href="https://wa.me/5587996838485" target="_blank">WhatsApp</a>
     <a href="https://www.instagram.com/nenem_barbearia_02?igsh=MXNtNGFidjRyOWo5MA==" target="_blank">Instagram</a>
-    <a href="https://facebook.com/SEUUSUARIO" target="_blank">Facebook</a>
+    <a href="https://www.facebook.com/vandevanio.lourenco.2025/" target="_blank">Facebook</a>
     <a href="https://twitter.com/SEUUSUARIO" target="_blank">Twitter</a>
     <a href="https://kwai.com/@SEUUSUARIO" target="_blank">Kwai</a>
     <a href="https://t.me/SEUUSUARIO" target="_blank">Telegram</a>
