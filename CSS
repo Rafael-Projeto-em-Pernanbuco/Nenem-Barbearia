@@ -1,0 +1,6 @@
+nenem-barbearia/
+├── index.html           ← Seu HTML
+├── main.cpp             ← Servidor em C++
+├── mongoose.c           ← Biblioteca de servidor web
+├── mongoose.h           ← Cabeçalho da Mongoose
+├── mensagens.txt        ← Arquivo onde mensagens são salvas
